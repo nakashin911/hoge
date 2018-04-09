@@ -2,10 +2,10 @@
 import json, config,random
 from requests_oauthlib import OAuth1Session
 
-CK = "bpEgeegoD2rTDGqzS2QuQEHq5"
-CS = "nqSIy0DMGvfYd4Eleel8zpkJdtaU4a0PxXdsOFqzRl014UETxU"
-AT = "717934172459798529-JWgH6f0FSj2ue0KQAxBCxE3ZpOfVKZX"
-ATS = "qNGj63NXX7VkWxrAE3i3V1YykgJbGwc3L9QiBewBrv3Xo"
+CK = なし
+CS = なし
+AT = なし
+ATS = なし
 twitter = OAuth1Session(CK, CS, AT, ATS)
 
 url = "https://api.twitter.com/1.1/statuses/update.json"
